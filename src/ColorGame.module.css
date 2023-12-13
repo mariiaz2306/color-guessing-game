@@ -1,0 +1,33 @@
+.colorGame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.colorBox{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+input{
+  padding: 15px;
+  margin-bottom: 15px;
+}
+button{
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.9s;
+  margin-bottom: 20px;
+}
+button:hover{
+transform: scale(1.1);
+background-color: blueviolet;
+}
+.resultMessage{
+  margin-top: 20px;
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
